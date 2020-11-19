@@ -28,8 +28,8 @@ jobs:
         with:
           initial_status: in_progress
           token: ${{ github.token }}
-          description: ci2
-          environment: ci2
+          description: ci3
+          environment: ci3
           ref: ${{ github.head_ref }}
 
       # Runs a single command using the runners shell
